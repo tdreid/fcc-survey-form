@@ -7,6 +7,10 @@ block content
   h1(id="title")= title
   p(id="description") Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate nunc sit amet urna egestas, et efficitur erat mattis. Sed mollis nibh in nulla ultricies egestas. Sed mauris ex, accumsan egestas turpis ac, ultrices luctus erat. Maecenas bibendum nulla quis euismod pharetra. Aliquam eget vulputate ante, non accumsan ipsum. Nunc fringilla laoreet tellus ut dictum. Nam non justo ac tortor euismod posuere. Praesent id sodales ante, in porta lectus. Fusce sit amet ex sollicitudin, suscipit massa eget, malesuada elit. Sed at elit dolor. Donec semper cursus congue. Nunc ullamcorper nulla orci, sed lobortis ante porta eu. Mauris vitae sagittis metus.
   form(id="survey-form")
+    label(for="name") Name:
+    input(type="text" id="name"   required="true")
+    label(for="email") Email:
+    input(type="email" id="email"   required="true")
 
 block scripts
   script(src='/js/client.min.js')
