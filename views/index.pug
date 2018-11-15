@@ -11,6 +11,8 @@ block content
     input(type="text" id="name"   required="true")
     label(for="email") Email:
     input(type="email" id="email"   required="true")
-
+    label(for="number") Number:
+    input(type="number" min="1" max="10")
+    
 block scripts
   script(src='/js/client.min.js')
